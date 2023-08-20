@@ -52,12 +52,12 @@ body {
 }
 #clock {
   text-align: center;
-  font-size: 250px;
+  font-size: 200px;
   color: var(--primary-color);
   font-family: var(--font-time);
   font-weight: 300;
 
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 #name-div,
