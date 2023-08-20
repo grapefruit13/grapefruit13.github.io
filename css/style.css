@@ -73,6 +73,7 @@ body {
   color: var(--primary-color);
   background-color: transparent;
   font-family: var(--font-time);
+  cursor: pointer;
 }
 
 #login-form button {
@@ -86,6 +87,7 @@ body {
 #login-form ::placeholder,
 #todo-form ::placeholder {
   color: var(--primary-time);
+  text-decoration: solid;
 }
 
 #todo-form input {
@@ -112,4 +114,8 @@ body {
   position: absolute;
   right: 10px;
   bottom: 10px;
+}
+
+input:focus {
+  outline: none;
 }
