@@ -37,27 +37,27 @@ body {
 }
 
 #quote span:first-child {
-  font-size: 50px;
+  font-size: 40px;
 }
 
 #quote span:last-child {
-  font-size: 30px;
+  font-size: 20px;
 }
 
 #greeting {
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   color: var(--primary-color);
   font-family: var(--font-time);
 }
 #clock {
   text-align: center;
-  font-size: 300px;
+  font-size: 250px;
   color: var(--primary-color);
   font-family: var(--font-time);
   font-weight: 300;
 
-  margin-top: 5rem;
+  margin-top: 3rem;
 }
 
 #name-div,
