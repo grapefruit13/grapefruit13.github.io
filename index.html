@@ -1,5 +1,73 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bebas+Neue"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Dancing+Script"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Pacifico"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>The things to do today</title>
+  </head>
   <body>
-    Hello! This is the first page!
+    <div id="top-grid">
+      <div id="quote">
+        <span></span>
+        <span></span>
+      </div>
+      <div id="greeting-div">
+        <h1 class="hidden" id="greeting"></h1>
+      </div>
+    </div>
+    <div id="clock">00:00:00</div>
+
+    <div id="name-div">
+      <form class="hidden" id="login-form">
+        <input
+          required
+          type="text"
+          maxlength="15"
+          placeholder="What is your name?"
+        />
+        <button type="submit">Log In</button>
+      </form>
+    </div>
+
+    <div id="todo-div">
+      <form id="todo-form">
+        <input
+          type="text"
+          placeholder="What do you have to do today?"
+          required
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quote.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>
