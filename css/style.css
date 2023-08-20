@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Raleway:wght@200&family=Silkscreen&display=swap");
+:root {
+  --font-time: "Silkscreen", cursive;
+  --primary-color: rgb(247, 247, 247);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: repeat-y;
+
+  font-family: var(--font-time);
+  color: var(--primary-color);
+}
+
+.hidden {
+  display: none;
+}
+
+#top-grid {
+  display: grid;
+  grid-template-columns: 80% 20%;
+  height: 15rem;
+}
+
+#quote {
+  height: 10rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  text-align: left;
+  color: var(--primary-color);
+  font-family: var(--font-time);
+}
+
+#quote span:first-child {
+  font-size: 50px;
+}
+
+#quote span:last-child {
+  font-size: 30px;
+}
+
+#greeting {
+  font-size: 4rem;
+  text-align: center;
+  color: var(--primary-color);
+  font-family: var(--font-time);
+}
+#clock {
+  text-align: center;
+  font-size: 300px;
+  color: var(--primary-color);
+  font-family: var(--font-time);
+  font-weight: 300;
+
+  margin-top: 5rem;
+}
+
+#name-div,
+#todo-div {
+  text-align: center;
+}
+#login-form input,
+#todo-form input {
+  border-style: none;
+  text-align: center;
+  color: var(--primary-color);
+  background-color: transparent;
+  font-family: var(--font-time);
+}
+
+#login-form button {
+  border-style: none;
+  font-size: 80px;
+  color: var(--primary-color);
+  background-color: transparent;
+  font-family: var(--font-time);
+}
+
+#login-form ::placeholder,
+#todo-form ::placeholder {
+  color: var(--primary-time);
+}
+
+#todo-form input {
+  width: 80%;
+  font-size: 60px;
+}
+
+#todo-list {
+  font-size: 3rem;
+  font-family: var(--font-time);
+}
+
+#todo-list li {
+  list-style: none;
+}
+
+#todo-list li button {
+  border-style: none;
+  background: transparent;
+  font-size: 3rem;
+}
+
+#weather {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
